@@ -65,7 +65,7 @@ export default function Home() {
 
       {/* Positioning Statement + Featured Image Section (Side by Side) */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
-        <div className="grid grid-cols-2 gap-4 sm:gap-8 md:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           {/* Left side: Positioning Statement */}
           <div className="flex flex-col justify-start">
             <div className="space-y-4">
