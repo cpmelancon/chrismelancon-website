@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
-import { Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
-
-const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Chris Melançon | Land Steward & Technologist',
   description: 'Chris Melançon - Committed to regenerative leadership in agriculture, land stewardship, and technology.',
+  icons: {
+    icon: '/favicon.svg',
+  },
   openGraph: {
     title: 'Chris Melançon | Land Steward & Technologist',
     description: 'Committed to regenerative leadership in agriculture, land stewardship, and technology.',
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={plusJakartaSans.className}>
+    <html lang="en">
       <body>{children}</body>
     </html>
   );
