@@ -7,7 +7,7 @@ import Image from 'next/image';
 type ResumeVersion = 'technologist' | 'land-steward';
 
 export default function Home() {
-  const [resumeVersion, setResumeVersion] = useState<ResumeVersion>('technologist');
+  const [resumeVersion, setResumeVersion] = useState<ResumeVersion>('land-steward');
 
   const technologistResume = '/resumes/Chris_Melancon_Resume_Technologist.pdf';
   const landStewardResume = '/resumes/Chris_Melancon_Resume_Land_Steward.pdf';
