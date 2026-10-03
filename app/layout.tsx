@@ -1,27 +1,27 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Plus_Jakarta_Sans } from 'next/font/google';
+import './globals.css';
+
+const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Chris Melançon | Land Steward & Technologist",
-  description: "Personal dossier and professional positioning for regenerative agriculture, land stewardship, and sustainable innovation leadership.",
+  title: 'Chris Melançon | Land Steward & Technologist',
+  description: 'Chris Melançon - Committed to regenerative leadership in agriculture, land stewardship, and technology.',
   openGraph: {
-    title: "Chris Melançon",
-    description: "Land Steward & Technologist exploring regenerative leadership opportunities",
-    url: "https://chrismelancon.com",
-    siteName: "Chris Melançon",
-    type: "website",
+    title: 'Chris Melançon | Land Steward & Technologist',
+    description: 'Committed to regenerative leadership in agriculture, land stewardship, and technology.',
+    type: 'website',
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en">
-      <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-      </head>
-      <body className="antialiased">{children}</body>
+    <html lang="en" className={plusJakartaSans.className}>
+      <body>{children}</body>
     </html>
   );
 }

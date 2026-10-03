@@ -282,7 +282,7 @@ export default function Home() {
           <a
             href="mailto:cpmelancon@gmail.com"
             className="px-6 py-3 rounded transition"
-            style={{ backgroundColor: '#2D5016', color: '#FFFFFF', fontFamily: 'Georgia, serif' }}
+            style={{ backgroundColor: '#0D2847', color: '#FFFFFF', fontFamily: 'Georgia, serif' }}
           >
             Get in Touch
           </a>
@@ -291,7 +291,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 rounded transition"
-            style={{ backgroundColor: '#3D6B22', color: '#FFFFFF', fontFamily: 'Georgia, serif' }}
+            style={{ backgroundColor: '#0D2847', color: '#FFFFFF', fontFamily: 'Georgia, serif' }}
           >
             LinkedIn
           </a>
@@ -301,7 +301,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t py-12 text-center text-sm" style={{ borderColor: '#2A2A2A', color: '#000000' }}>
         <div className="max-w-4xl mx-auto px-6">
-          <p>Chris Melançon • Sonoma, California</p>
+          <p>© {new Date().getFullYear()} Chris Melançon • Sonoma, California</p>
         </div>
       </footer>
     </div>
