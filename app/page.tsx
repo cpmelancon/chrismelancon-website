@@ -58,8 +58,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="max-w-4xl mx-auto px-6 py-8">
         <p className="mb-2 leading-relaxed font-bold" style={{ color: '#2D5016', fontFamily: 'system-ui, -apple-system, sans-serif', fontSize: '1.25rem' }}>
-          I believe the Human Economy and Nature's Economy can be reconciled with
-          protracted thoughtful observations and intentional long term action.
+          I believe the Human Economy and Nature's Economy can be reconciled.
         </p>
       </section>
 
@@ -120,8 +119,8 @@ export default function Home() {
           <div className="flex flex-col justify-start">
             <div className="relative w-full rounded-lg overflow-hidden" style={{ aspectRatio: '2/3' }}>
               <Image
-                src="/images/chris-hawk.jpg"
-                alt="Chris with hawk - mastery and deep relationship with natural systems"
+                src="/images/dog-garden.jpg"
+                alt="Chris with McNab dog in garden - community and partnership"
                 fill
                 className="object-cover"
                 style={{ objectPosition: 'center top' }}
@@ -236,12 +235,12 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Dog & Garden */}
+          {/* Hawk/Falconry - Community */}
           <div className="space-y-4">
             <div className="aspect-square relative bg-gray-200">
               <Image
-                src="/images/dog-garden.jpg"
-                alt="Chris with McNab dog in garden"
+                src="/images/chris-hawk.jpg"
+                alt="Chris with hawk"
                 fill
                 className="object-cover"
               />
