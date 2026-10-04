@@ -235,12 +235,12 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Hawk/Falconry - Community */}
+          {/* Dog & Goat - Community */}
           <div className="space-y-4">
             <div className="aspect-square relative bg-gray-200">
               <Image
-                src="/images/chris-hawk.jpg"
-                alt="Chris with hawk"
+                src="/images/community-dog-goat.jpg"
+                alt="Chris with dog and goat"
                 fill
                 className="object-cover"
               />
