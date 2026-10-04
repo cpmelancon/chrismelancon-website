@@ -57,7 +57,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="max-w-4xl mx-auto px-6 py-8">
-        <p className="mb-2 leading-relaxed font-bold" style={{ color: '#2D5016', fontFamily: 'system-ui, -apple-system, sans-serif', fontSize: '1.25rem' }}>
+        <p className="mb-2 leading-relaxed font-bold text-3xl" style={{ color: '#2D5016', fontFamily: 'system-ui, -apple-system, sans-serif' }}>
           I believe the Human Economy and Nature's Economy can be reconciled.
         </p>
       </section>
