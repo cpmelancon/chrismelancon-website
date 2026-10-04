@@ -123,7 +123,7 @@ export default function Home() {
                 alt="Chris with McNab dog in garden - community and partnership"
                 fill
                 className="object-cover"
-                style={{ objectPosition: 'center top' }}
+                style={{ objectPosition: 'center center' }}
               />
             </div>
           </div>
